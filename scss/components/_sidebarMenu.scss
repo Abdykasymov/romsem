@@ -7,6 +7,9 @@
      background-color: $bg-gray; 
      border: none;
     }
+    @include mobile() {
+        display: none;
+      }
 }
 
 .logo {
@@ -74,3 +77,4 @@
     }
 
 }
+ 
