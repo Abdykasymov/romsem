@@ -11,6 +11,12 @@
   border: none;
 }
 
+@media screen and (max-width: 576px) {
+  .sidebar-menu {
+    display: none;
+  }
+}
+
 .logo {
   margin-bottom: 30px;
 }
@@ -715,6 +721,12 @@
   padding: 10px 30px;
   margin-top: 30px;
   color: #f2f2f2;
+}
+
+@media screen and (max-width: 576px) {
+  .sidebar-cart {
+    display: none;
+  }
 }
 
 .sidebar-map {
