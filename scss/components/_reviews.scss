@@ -1,0 +1,103 @@
+main {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .reviews {
+      padding-bottom: 437px;
+  
+      &__container {
+        max-width: 1110px;
+        height: 1000px;
+        margin: 0 auto;
+      }
+  
+    &__item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 50px 0;
+  
+      button {
+        background: $bg-black;
+        @include font(12px, 22px);
+        border-radius: 5px;
+        text-align: center;
+        color: $text-light-gray;
+        padding: 7px 17px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  
+    &__title{
+      height: 114px;
+      background: #FFFFFF;
+      border-radius: 5px;
+      margin-bottom:20px;
+      h2 {
+        display: flex;
+        @include font(24px,500);
+        color: $text-black;
+        padding: 10px;
+        span{
+          @include font(18px,500);
+          color: $text-gray;
+          margin: 5px 20px;
+        }
+      }
+      p { 
+          @include font(18px,22px);
+          color: $text-black;
+          padding-left: 10px;
+          }
+    }
+    
+    &__subtitle {
+      height: 92px;
+      background: #FFFFFF;
+      border-radius: 5px;
+      margin-bottom:20px;
+      h2 {
+        display: flex;
+        @include font(24px,500);
+        color: $text-black;
+        padding: 10px;
+        span{
+          @include font(18px,500);
+          color: $text-gray;
+          margin: 5px 20px;
+        }
+      }
+      p { 
+          @include font(18px,22px);
+          color: $text-black;
+          align-items: center;
+          padding-left: 10px;
+          }
+    }
+    
+    &__text {
+      height: 136px;
+      background: #FFFFFF;
+      border-radius: 5px;
+      padding: 10px;
+      h2 {
+        display: flex;
+        @include font(24px,500);
+        color: $text-black;
+        span{
+          @include font(18px,500);
+          color: $text-gray;
+          margin: 5px 20px;
+        }
+      }
+      p { 
+          @include font(18px,22px);
+          color: $text-black;
+          align-items: center;
+          margin: 20px 0px;
+          }
+    }
+  }
+  
