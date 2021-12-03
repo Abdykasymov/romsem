@@ -86,7 +86,7 @@
 }
 
 .products {
-  @include mobile{
+  @include mobile {
     display: none;
   }
 }

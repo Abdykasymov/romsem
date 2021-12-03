@@ -21,8 +21,7 @@
 }
 
 .slider {
-  @include mobile{
+  @include mobile {
     display: none;
   }
 }
-

@@ -95,8 +95,8 @@
   }
 }
 
-.about{
-  @include mobile() {
+.about  {
+  @include mobile {
     padding-bottom: 0;
   }
 }

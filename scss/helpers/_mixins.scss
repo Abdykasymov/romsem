@@ -11,8 +11,9 @@
     justify-content: $juscontent;
 }
 
-@mixin mobile($size: 576px) {
-    @media screen and (max-width: $sixe) {
+@mixin mobile($size:576px) {
+    @media screen and (max-width: $size) {
         @content
     }
 }
+

@@ -91,30 +91,30 @@
 }
 
 .footer {
-  @include mobile{
-    padding: 0 20px 30px;
-    &-row{
+  @include mobile {
+    padding: 0 20px 100px;
+    &__row {
       border: none;
     }
-    &-item{
+    &-item {
       width: 100%;
       text-align: center;
     }
-    &-item.footer-nav{
+    &-item.footer-nav {
       display: none;
     }
-    &-contacts{
+    &-contacts {
       border: none;
       padding: 0;
     }
-    &-numbers{
+    &-numbers {
       padding: 0;
-      margin-top: 25px;
+      margin-top: 30px;
     }
-    &-contacts__icons{
+    &-contacts__icons {
       justify-content: center;
     }
-    &-contacts__title{
+    &-contacts__title {
       display: none;
       + input {
         display: none;
